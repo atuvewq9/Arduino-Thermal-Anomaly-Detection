@@ -1,0 +1,25 @@
+The prototype uses a configurable temperature threshold:
+
+THRESHOLD = 30°C
+Normal Condition
+
+If:
+
+Temperature < 30°C
+
+The system operates in normal mode:
+
+Green LED → ON/Blinking
+Red LED   → OFF
+Thermal Anomaly
+
+If:
+
+Temperature ≥ 30°C
+
+The system enters alert mode:
+
+Green LED → OFF
+Red LED   → Blinking
+
+The relay is controlled according to the programmed alert logic.
